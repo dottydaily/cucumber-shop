@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "classpath:features",
                  plugin = {"pretty", "html:target/cucumber"})
 public class BuyUAT {
-
+    // features : path of file 'features'
+    // (depend on project structure/features must be in resources)
+    // plubin : pretty = let cucumber generate output files by specifc format
 }
-
